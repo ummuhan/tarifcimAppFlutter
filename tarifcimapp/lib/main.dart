@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tarifcimapp/Pages/Urunler/urunlar_sayfasi.dart';
+import 'package:tarifcimapp/Pages/constants.dart';
 import 'package:tarifcimapp/Pages/homepage.dart';
 
 void main() {
@@ -13,10 +15,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Tarifçim',
       theme: ThemeData(
+        primaryColor: kPrimaryColor,
+        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: UrunlarSayfasi(),
     );
   }
 }
