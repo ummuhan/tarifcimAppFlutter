@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tarifcimapp/Pages/constants.dart';
 
 class UrunlerElemanOlustur extends StatelessWidget {
   const UrunlerElemanOlustur({
@@ -9,13 +8,13 @@ class UrunlerElemanOlustur extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(20),
+      margin: EdgeInsets.all(10),
       decoration: BoxDecoration(
-          color: kCardColor, borderRadius: BorderRadius.circular(20)),
+          color: Color(0XFFF2F1EC), borderRadius: BorderRadius.circular(20)),
       child: Row(
         children: [
           CircleAvatar(
-            radius: 60,
+            radius: 50,
             backgroundImage: AssetImage(
               "assets/images/yemekler/biber_dolmasi.jpg",
             ),
@@ -24,7 +23,7 @@ class UrunlerElemanOlustur extends StatelessWidget {
               margin: EdgeInsets.all(20),
               child: Text(
                 "Biber Dolması",
-                style: TextStyle(fontSize: 30),
+                style: TextStyle(fontSize: 30, color: Colors.black),
               ))
         ],
       ),

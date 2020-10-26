@@ -35,20 +35,6 @@ class HomePage extends StatelessWidget {
                       color: Colors.red,
                     ),
                     onPressed: () {},
-                    // onPressed: showDialog(
-                    //     context: context,
-                    //     builder: (_) => new AlertDialog(
-                    //           title: new Text("Material Dialog"),
-                    //           content: new Text("Hey! I'm Coflutter!"),
-                    //           actions: <Widget>[
-                    //             FlatButton(
-                    //               child: Text('Close me!'),
-                    //               onPressed: () {
-                    //                 Navigator.of(context).pop();
-                    //               },
-                    //             )
-                    //           ],
-                    //         )),
                   ),
                 ),
               ],
@@ -66,7 +52,7 @@ class HomePage extends StatelessWidget {
                 cardImage: Image.asset("assets/images/anasayfa/sandwich.png"),
                 cardText: "Atıştırmalıklar",
               ),
-             HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/cola.png"),
                 cardText: "İçecekler",
               ),
@@ -74,12 +60,12 @@ class HomePage extends StatelessWidget {
                 cardImage: Image.asset("assets/images/anasayfa/pie.png"),
                 cardText: "Pastalar",
               ),
-             HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage:
                     Image.asset("assets/images/anasayfa/gingerbreadman.png"),
                 cardText: "Kurabiyeler",
               ),
-             HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/avocado.png"),
                 cardText: "Diyet Yemekleri",
               ),
@@ -87,39 +73,39 @@ class HomePage extends StatelessWidget {
                 cardImage: Image.asset("assets/images/anasayfa/cutlery.png"),
                 cardText: "Ev Yemekleri",
               ),
-            HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/broccoli.png"),
                 cardText: "Salatalar",
               ),
-               HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/bread.png"),
                 cardText: "Hamur işi",
               ),
-                HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/fish.png"),
                 cardText: "Balık",
               ),
-                HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/icecream.png"),
                 cardText: "Dondurmalar",
               ),
-             HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/noodles.png"),
                 cardText: "Makarnalar",
               ),
-               HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/ketchup.png"),
                 cardText: "Soslar",
               ),
-               HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/jam.png"),
                 cardText: "Reçeller",
               ),
-               HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/coffee.png"),
                 cardText: "Kahveler",
               ),
-               HomePageCardWidget(
+              HomePageCardWidget(
                 cardImage: Image.asset("assets/images/anasayfa/burger.png"),
                 cardText: "Fastfood",
               ),

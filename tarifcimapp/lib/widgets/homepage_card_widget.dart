@@ -14,7 +14,6 @@ class HomePageCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Card(
-   
         shape: BeveledRectangleBorder(side: BorderSide(color: Colors.red)),
         color: Colors.white,
         child: Column(

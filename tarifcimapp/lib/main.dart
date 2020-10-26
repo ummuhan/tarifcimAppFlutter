@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tarifcimapp/Pages/Urunler/urunlar_sayfasi.dart';
+import 'package:tarifcimapp/Pages/ProductPage/body.dart';
 import 'package:tarifcimapp/Pages/constants.dart';
-import 'package:tarifcimapp/Pages/homepage.dart';
 import 'package:tarifcimapp/Pages/newProduct/body.dart';
 
 void main() {

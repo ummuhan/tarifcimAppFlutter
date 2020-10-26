@@ -29,12 +29,11 @@ class UrunlerAppBar extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Container(
-                    height: 150,
-                    child: Image.asset(
-                        "assets/images/anasayfa/burger.png")),
+                    height: 120,
+                    child: Image.asset("assets/images/anasayfa/burger.png")),
                 Text(
-                  "TARİFçim",
-                  style: TextStyle(fontSize: 50, fontFamily: "baslik"),
+                  "TARİFÇİM",
+                  style: TextStyle(fontSize: 30, fontFamily: "metin"),
                 ),
               ],
             ),
