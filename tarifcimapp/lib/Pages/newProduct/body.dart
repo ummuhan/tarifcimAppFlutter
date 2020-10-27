@@ -11,8 +11,13 @@ class NewProductBody extends StatefulWidget {
 class _NewProductBodyState extends State<NewProductBody> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return
+
+        // Scaffold(
+        //   body:
+
+        Card(
+      child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
           color: kPrimaryColor,
@@ -127,6 +132,7 @@ class _NewProductBodyState extends State<NewProductBody> {
             )
           ],
         ),
+        //  ),
       ),
     );
   }

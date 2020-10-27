@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tarifcimapp/Pages/ProductPage/body.dart';
+import 'package:tarifcimapp/Pages/NavigationPage/navigationBottom.dart';
+
 import 'package:tarifcimapp/Pages/constants.dart';
-import 'package:tarifcimapp/Pages/newProduct/body.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: NewProductBody(),
+      home: NavigationBottom(),
     );
   }
 }
